@@ -32,9 +32,12 @@ namespace Vsite.CSharp
     {
         static void Main(string[] args)
         {
-            // TODO: Inicijalizirati objekt tipa MojaKlasa i pozvati njegovu metodu
-           
-            // TODO: Inicijalizirati objekt tipa MojaStruktura i pozvati njegovu metodu
+            // Inicijalizirati objekt tipa MojaKlasa i pozvati njegovu metodu
+            MojaKlasa a = new MojaKlasa();
+            a.IspisiX();
+            // Inicijalizirati objekt tipa MojaStruktura i pozvati njegovu metodu
+            MojaStruktura b = new MojaStruktura();
+            b.DajTekst();
 
             Console.ReadKey();
         }
