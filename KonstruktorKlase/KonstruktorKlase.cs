@@ -35,7 +35,7 @@ namespace Vsite.CSharp
             Console.WriteLine(X2.s);
 
 
-            // TODO: U klasi MojaKlasa promijeniti prazan konstruktor tako da prima dva argumenta kojima se inicijaliziraju članovi te ponoviti gornji postupak
+            // U klasi MojaKlasa promijeniti prazan konstruktor tako da prima dva argumenta kojima se inicijaliziraju članovi te ponoviti gornji postupak
             MojaKlasa X3 = new MojaKlasa(100, "stol");
             Console.WriteLine(X3.a);
             Console.WriteLine(X3.s);
